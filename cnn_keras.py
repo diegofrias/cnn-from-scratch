@@ -1,9 +1,9 @@
 import numpy as np
 import mnist
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten
-from keras.utils import to_categorical
-from keras.optimizers import SGD
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.optimizers import SGD
 
 train_images = mnist.train_images()
 train_labels = mnist.train_labels()
